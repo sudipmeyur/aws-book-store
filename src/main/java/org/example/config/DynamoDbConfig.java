@@ -1,6 +1,7 @@
-package com.aws.spring.aws_book_store.config;
+package org.example.config;
 
-import com.aws.spring.aws_book_store.domain.BookItem;
+
+import org.example.domain.BookItem;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import software.amazon.awssdk.enhanced.dynamodb.DynamoDbEnhancedClient;

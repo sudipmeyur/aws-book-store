@@ -1,8 +1,9 @@
-package com.aws.spring.aws_book_store.repository;
+package org.example.repository;
 
+import org.example.domain.BookItem;
 import org.springframework.stereotype.Repository;
 
-import com.aws.spring.aws_book_store.domain.BookItem;
+
 
 import lombok.AllArgsConstructor;
 import software.amazon.awssdk.enhanced.dynamodb.DynamoDbTable;

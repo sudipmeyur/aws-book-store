@@ -1,9 +1,10 @@
-package com.aws.spring.aws_book_store.config;
+package org.example.config;
 
-import com.aws.spring.aws_book_store.domain.BookItem;
+
 
 import lombok.extern.slf4j.Slf4j;
 
+import org.example.domain.BookItem;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationListener;
 

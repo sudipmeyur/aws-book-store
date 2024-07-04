@@ -1,5 +1,7 @@
-package com.aws.spring.aws_book_store.controller;
+package org.example.controller;
 
+import org.example.domain.BookItem;
+import org.example.repository.BookItemRepository;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -8,8 +10,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.aws.spring.aws_book_store.domain.BookItem;
-import com.aws.spring.aws_book_store.repository.BookItemRepository;
+
 
 import lombok.AllArgsConstructor;
 

@@ -1,4 +1,4 @@
-package com.aws.spring.aws_book_store.domain;
+package org.example.domain;
 
 import lombok.Setter;
 import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbAttribute;
