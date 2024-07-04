@@ -1,1 +1,1 @@
-# aws-book-store
+# aws-dynamo-demo
